@@ -1,0 +1,33 @@
+/* QUOTES ================================================ */
+.quotes-btn {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#numbers-checkbox {
+    margin-left: 2px;
+}
+.quotes {
+    font-size: 1.4rem !important;
+    padding-bottom: 30px;
+}
+.quote-numbers {
+    display: block;
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 2rem;
+    font-weight: 300;
+}
+.quote-author {
+    display: block;
+    padding-top: 10px;
+}
+.quotes-modal p {
+    font-size: 1.3rem !important;
+}
+.block {
+    display: block;
+}
+.one-rem {
+    font-size: 1rem;
+}
