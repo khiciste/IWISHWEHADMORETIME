@@ -388,6 +388,10 @@ h2 {
     font-size: 2.4rem;
 }
 
+h3 {
+  font-family: 'Work Sans', 'Open Sans', sans-serif;
+}
+
 .green-text {
   color: #0f9d58; /* google hangouts green */
 }

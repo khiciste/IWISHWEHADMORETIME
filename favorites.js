@@ -1,5 +1,6 @@
 $(document).ready(function() {
     // BLACK HOLE SPOILER
+      $('#black-hole-spoiler').hide();
     $("#black-hole-btn").click(function() {
         $("#black-hole-spoiler").fadeToggle("slow");
     });
