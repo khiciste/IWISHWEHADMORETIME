@@ -2,6 +2,7 @@
 <html lang="en">
 	
 <head>
+  <!-- ABOUT ------------------------------->
 	<!-- KEVINCLELAND.COM v3.0 -->
 	<!-- https://www.thinkful.com/learn/a-guide-to-using-github-pages/start/existing-project/user-page/ -->
 	<!-- http://blog.teamtreehouse.com/using-github-pages-to-host-your-website -->
@@ -34,52 +35,52 @@
 
   <header>
     <div class="container">
-    <nav>
-    <div class="nav-wrapper">
-      <!-- BRAND -->
-      <a class="left brand-logo navbar-brand" href="index.html">
-        <div id="brand">
-            <div id="brand-title">
-              <p id="i-wish">I WISH&nbsp;</p>
-              <p id="we-had">WE HAD&nbsp;</p>
-              <p id="more-time">MORE TIME.&nbsp;</p>
+      <nav>
+        <div class="nav-wrapper">
+          <!-- BRAND -->
+          <a class="left brand-logo navbar-brand" href="index.html">
+            <div id="brand">
+              <div id="brand-title">
+                <p id="i-wish">I WISH&nbsp;</p>
+                <p id="we-had">WE HAD&nbsp;</p>
+                <p id="more-time">MORE TIME.&nbsp;</p>
+              </div>
             </div>
+          </a>
+          <a href="#" data-target="mobile-demo" 
+            class="sidenav-trigger">
+            <i class="material-icons">menu</i>
+          </a>
+          <!-- LARGE DISPLAYS -->
+          <ul class="right hide-on-med-and-down" role="navigation">
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="portfolio.html">PORTFOLIO</a></li>
+            <li><a href="favorites.html">FAVORITES</a></li>
+            <li><a href="quotes.html">QUOTES</a></li>
+          </ul>
+          <!-- med & down -->
+          <ul class="sidenav" id="mobile-demo" role="navigation">
+            <li>
+              <div class="user-view">
+                <div class="background">
+                  <img src="before-i-die.jpg">
+                </div>
+                <a href="about.html"><img class="circle" src="Trata_1_Cropped.jpg"></a>
+                <a href="about.html"><span class="white-text name">KEVIN CLELAND</span></a>
+              </div>
+            </li>
+            <li><a class="sidenav-close" href="#!"><i class="right material-icons">close</i></a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="portfolio.html">PORTFOLIO</a></li>
+            <li><a href="favorites.html">FAVORITES</a></li>
+            <li><a href="quotes.html">QUOTES</a></li>
+            <li><a href="mathcards.html">MATHCARDS</a></li>
+            <li><a href="quintillion.html">QUINTILLION</a></li>
+            <li><a href="random-name.html">RANDOM NAME</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
         </div>
-      </a>
-      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-      <!-- LARGE DISPLAYS -->
-      <ul class="right hide-on-med-and-down">
-        <li role="presentation"><a href="about.html">ABOUT</a></li>
-        <li role="presentation"><a href="favorites.html">FAVORITES</a></li>
-        <li role="presentation"><a href="quotes.html">QUOTES</a></li>
-        <li role="presentation"><a href="mathcards.html">MATHCARDS</a></li>
-        <!--<li role="presentation"><a href="games.html">GAMES</a></li>-->
-        <!--<li role="presentation"><a href="contact.html">CONTACT</a></li>-->
-      </ul>
-      <!-- med & down -->
-      <ul class="sidenav" id="mobile-demo">
-        <li>
-          <div class="user-view">
-            <div class="background">
-              <img src="before-i-die.jpg">
-            </div>
-          <a href="about.html"><img class="circle" src="Trata_1_Cropped.jpg"></a>
-          <a href="about.html"><span class="white-text name">KEVIN CLELAND</span></a>
-          <a href="mailto:kevin.cleland@gmail.com"><span class="white-text email">KEVIN.CLELAND@GMAIL.COM</span></a>
-          </div>
-        </li>
-        <li><a class="sidenav-close" href="#!"><i class="right material-icons">close</i></a></li>
-        <li role="presentation"><a href="about.html">ABOUT</a></li>
-        <li role="presentation"><a href="favorites.html">FAVORITES</a></li>
-        <li role="presentation"><a href="quotes.html">QUOTES</a></li>
-        <li role="presentation"><a href="mathcards.html">MATHCARDS</a></li>
-        <li role="presentation"><a href="quintillion.html">QUINTILLION</a></li>
-        <li role="presentation"><a href="random-name.html">RANDOM NAME</a></li>
-        <!--<li role="presentation"><a href="games.html">GAMES</a></li>-->
-        <!--<li role="presentation"><a href="contact.html">CONTACT</a></li>-->
-      </ul>
-    </div>
-    </nav>
+      </nav>
     </div>
   </header>
 
@@ -92,12 +93,13 @@
         <i class="material-icons">keyboard_arrow_up</i>
       </a>
     </div>
-    
+
+    <!-- ABOUT --------------------------->
     <div class="row">
       <div class="jumbotron card">
           <h1 class="marker">
-            ABOUT
             <img class="circular" id="brand-img" src="Trata_1_Cropped.jpg" />
+            ABOUT
           </h1>
         <p class="body-para work-sans">
           This site is called I wish we had more time because that
@@ -112,7 +114,7 @@
         
         <br />
         
-        <h5 class="work-sans thin CAPS">Never stop learning.</h5>
+        <h2 class="work-sans thin CAPS">Never stop learning.</h2>
         
         <br />
         <br />
@@ -129,7 +131,7 @@
         
         <br />
         
-        <h5 class="work-sans thin CAPS">Never stop exploring.</h5>
+        <h2 class="work-sans thin CAPS">Never stop exploring.</h2>
         
         <br />
         <br />
@@ -141,10 +143,10 @@
           Materialize. I also run my school's Tech Club, where we teach 
           middle school kids how to write their own video games, and 
           assistant coach our Lego Robotics Team, helping middle 
-          schoolers learn to program robots. I was recently inducted 
-          into the 
+          schoolers learn to program robots. I recently completed 
+          the 
           <a href="https://www.suny.edu/masterteacher/cohort/">
-            New York State Master Teacher Program</a>, where I'm 
+            New York State Master Teacher Program</a>, spending the past four years 
             learning about new trends in math, science, technology, 
             and education. 
             I like to hike, read, travel, work out, and absolutely 
@@ -153,7 +155,7 @@
         
         <br />
         
-        <h5 class="work-sans thin CAPS">Life is short&mdash;Go outside.</h5>
+        <h2 class="work-sans thin CAPS">Life is short&mdash;Go outside.</h2>
         
         <br />
         <br />
@@ -171,9 +173,9 @@
         
         <br />
         
-        <h5 class="work-sans thin CAPS">
+        <h2 class="work-sans thin CAPS">
           Go forth and prosper. 
-        </h5>
+        </h2>
         
         <br />
         <br />
