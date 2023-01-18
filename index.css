@@ -256,6 +256,9 @@ h1 {
 .btn { margin-right: 5px; margin-bottom: 10px;}
 .btn:hover { color: white; }
 
+.input-field > label {
+  color: rgb(90, 90, 90);
+}
 
 /*http://mediag.com/news/popular-screen-resolutions-designing-for-all/*/
 /* X-LARGE SCREENS */
@@ -486,7 +489,7 @@ footer {
 }
 .footer-flex-container {
     position: absolute;
-    width: 95%;    
+    width: 90%;    
 }
 @media (max-width: 767px) {
   .footer-flex-container {
