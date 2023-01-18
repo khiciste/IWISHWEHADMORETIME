@@ -1,4 +1,4 @@
-/* KEVINCLELAND.COM v3.3 */
+/* IWISHWEHADMORETIME.COM */
 /* https://css-tricks.com/box-sizing/ */
 /* https://brandcolors.net/ */
 /* https://daneden.github.io/animate.css/ */
@@ -7,7 +7,7 @@
 html {
   box-sizing: border-box;
   background-color: whitesmoke;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -64,6 +64,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+  overflow-x: hidden !important;
 }
 
 main {
@@ -103,8 +104,9 @@ main {
 
 /* HEADER ================================================ */
 header {
-    /*border: solid red;*/
-    margin-bottom: 40px;
+  /*border: solid red;*/
+  margin-top: 10px; 
+  margin-bottom: 0;
 }
 nav {
     justify-content: flex-start;
@@ -216,9 +218,9 @@ main {
 }
 
 #to-top-button {
-    background-color: #616161 !important;
+    background-color: black !important;
     /*background-color: red;*/
-    opacity: 0.6;
+/*     opacity: 0.7; */
 }
 
 h1 {
@@ -484,7 +486,13 @@ footer {
 }
 .footer-flex-container {
     position: absolute;
+    width: 95%;    
+}
+@media (max-width: 767px) {
+  .footer-flex-container {
+    position: absolute;
     width: 79%;    
+  }
 }
 .footer-credit {
     text-align: right;
