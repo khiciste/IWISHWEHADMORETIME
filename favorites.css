@@ -1,4 +1,5 @@
 /* FAVORITES ============================================= */
+
 .row           { margin-bottom: 0; }
 .tag-row       { margin-left: 0; margin-bottom: 0; }
 .tag .btn      { font-weight: normal; }
@@ -6,23 +7,34 @@
 .inactive-post { display: none; }
 .review        { padding-bottom:20px; }
 .title         { margin-top: 30px; margin-bottom: 15px; }
-.author        { font-size: 2.6rem; }
-
-@media (max-width: 460px) {
-    .title          { font-size: 3rem; }
-    .author         { font-size: 2.4rem; }
-    .review p, .review ul, .review.btn  { font-size: 2rem !important; }
+.review > .btn { font-weight: bold; }
+.review p, 
+.review ul, 
+.review.btn { 
+  font-size: 20px !important; 
 }
 
-.review > .btn      { font-weight: bold; }
-.review p, .review ul, .review.btn { font-size: 1.6rem !important; }
+h2 {
+  font-family: 'Courier Prime', monospace;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-family: 'Courier Prime', monospace;
+  margin-top: 0;
+}
+
+h2.special-elite,
+h3.special-elite {
+  font-family: 'Special Elite', monospace;
+}
 
 .book-img {
     position: relative;
     display: inline-block;
-    height: 30vh !important;
+    height: 300px !important;
     width: auto !important;
-    margin-top: 30px;
+    margin: 10px;
 }
 
 #black-hole-spoiler {

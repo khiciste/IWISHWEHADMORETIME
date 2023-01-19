@@ -4,6 +4,8 @@
 /* https://daneden.github.io/animate.css/ */
 /* pixelbook resolution: 2,400 x 1,600 */
 
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600&family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&family=Permanent+Marker&family=Courier+Prime&family=Special+Elite&family=Roboto&display=swap');
+
 html {
   box-sizing: border-box;
   background-color: whitesmoke;
@@ -14,8 +16,10 @@ html {
 }
 
 /* FONTS */
-body           { font-family: 'Roboto', 'Open Sans', sans-serif; }
-.cutive-mono   { font-family: 'Cutive Mono', monospace; } /* non-fiction */
+
+body           { font-family: 'Work Sans', 'Open Sans', sans-serif; }
+.courier-prime { font-family: 'Courier Prime', monospace; }
+.cutive-mono   { font-family: 'Cutive Mono', monospace; } 
 .marker        { font-family: 'Permanent Marker', 'Work Sans', sans-serif !important; }
 .volkhov       { font-family: 'Volkhov', serif; }
 .open-sans     { font-family: 'Open Sans', sans-serif; }
@@ -34,6 +38,7 @@ body           { font-family: 'Roboto', 'Open Sans', sans-serif; }
 .hidden        { visibility: hidden; }
 .block         { display: block; }
 .inline-block  { display: inline-block; }
+
 
 /* COLORS */
 .hangouts-green            { color: #0f9d58; }
@@ -224,9 +229,21 @@ main {
 }
 
 h1 {
-    margin-top: 1.68rem;
-    margin-bottom: 1.68rem;
+  margin-top: 1.68rem;
+  margin-bottom: 1.68rem;
 }
+
+h2 {
+  text-transform: UPPERCASE;
+  font-family: 'Work Sans', 'Open Sans', sans-serif;
+  font-size: 2.8rem;
+}
+
+h3 {
+  font-family: 'Work Sans', 'Open Sans', sans-serif;
+  font-size: 2rem;
+}
+
 .jumbotron {
     position: relative;
     height: auto;
@@ -238,6 +255,11 @@ h1 {
     justify-content: center;
     align-items: center;
 }
+
+.jumbotron h1.small-heading {
+  font-size: 3.2rem;
+}
+
 .jumbotron p {
   font-family: 'Work Sans', 'Open Sans', sans-serif;
   font-size: 1.3rem;
@@ -380,16 +402,6 @@ h1 {
         width: 70vw;
         height: auto;
     }
-}
-
-h2 {
-    text-transform: UPPERCASE;
-    font-family: 'Work Sans', 'Open Sans', sans-serif;
-    font-size: 2.4rem;
-}
-
-h3 {
-  font-family: 'Work Sans', 'Open Sans', sans-serif;
 }
 
 .green-text {
