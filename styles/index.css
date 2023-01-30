@@ -82,6 +82,20 @@ main {
     margin-right: auto !important;
 }
 
+.centered-h {
+    display: flex;
+    justify-content: center;
+}
+
+.centered-h img {
+    display: block;
+    width: 99%;
+}
+
+.centered-text {
+    text-align: center;
+}
+
 .display-none { display: none !important; }
 
 .responsive {

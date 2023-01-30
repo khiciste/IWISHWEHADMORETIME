@@ -13,7 +13,7 @@
   <!-- font awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
 	<!-- CUSTOM STYLESHEETS -->
-	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="./styles/index.css">
 
 	<title>IWISHWEHADMORETIME</title>
 
@@ -50,9 +50,9 @@
             <li>
               <div class="user-view">
                 <div class="background">
-                  <img src="before-i-die.jpg">
+                  <img src="./images/before-i-die.jpg">
                 </div>
-                <a href="about.html"><img class="circle" src="Trata_1_Cropped.jpg"></a>
+                <a href="about.html"><img class="circle" src="./images/Trata_1_Cropped.jpg"></a>
                 <a href="about.html"><span class="white-text name">KEVIN CLELAND</span></a>
               </div>
             </li>
@@ -72,20 +72,21 @@
   </header>
 
   <main>
-    <div class="container">
-
-      <!-- TO TOP FLOATING BUTTON -->
-      <div class="fixed-action-btn">
-        <a href="#body" id="to-top-button" class="btn-floating right btn-large">
-          <i class="material-icons">keyboard_arrow_up</i>
-        </a>
-      </div>
+    <div class="container" id="main-container">
+    <div class="main-flex-container">    
+    
+    <!-- TO TOP FLOATING BUTTON -->
+    <div class="fixed-action-btn">
+      <a href="#main-container" id="to-top-button" class="btn-floating right btn-large">
+        <i class="material-icons">keyboard_arrow_up</i>
+      </a>
+    </div>
 
       <!-- ABOUT --------------------------->
       <div class="row">
         <div class="jumbotron card">
           <h1 class="marker small-heading">
-            <img class="circular" id="brand-img" src="Trata_1_Cropped.jpg" />
+            <img class="circular" id="brand-img" src="./images/Trata_1_Cropped.jpg" />
             PORTFOLIO.
           </h1>
           <p>Here's a selection of my coding work. Interested in working together? Contact me <a href="contact.html">here</a>.</p>
@@ -108,7 +109,7 @@
           </div>
           <div class="col s12 m3 centered-wrapper">
             <a tartget="_blank" href="https://letterstouncledavid.com">
-              <img class="responsive" id="ltud-img" src="ltud_book_cover_12_27_2022.png" />
+              <img class="responsive" id="ltud-img" src="./images/ltud_book_cover_12_27_2022.png" />
             </a>
           </div>
         </section>
@@ -130,10 +131,10 @@
         <p class="footer-credit">site design by
           <a class="foot-name-link" href="about.html">
             <span class="CAPS first-name">kevin</span>
-            <span class="CAPS superscript bold last-name">cleland</span>
+            <span class="CAPS superscript last-name">cleland</span>
           </a>
           <span class="icons-span">
-            <a href="https://instagram.com/goforth_andprosper/">
+            <a target="_blank" href="https://instagram.com/kevinmccleland/"></a>
               <i class="fab fa-instagram"></i>
             </a>
             <a href="https://open.spotify.com/user/1245748701/playlist/0Kr3hSg0stBIbb7Gbq8qNt">
@@ -155,6 +156,6 @@
 <!-- MATERIALIZE JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/js/materialize.min.js"></script>
 <!-- CUSTOM JS -->
-<script src="index.js"></script>
+<script src="./scripts/index.js"></script>
 
 </html>
