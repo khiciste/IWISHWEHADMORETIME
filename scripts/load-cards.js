@@ -37,7 +37,7 @@ function appendHTML(el, obj) {
 $(document).ready(()=> {
     $.ajax({ 
         type: 'GET', 
-        url: 'mathcards.json', // url of the json file
+        url: './scripts/mathcards.json', // url of the json file
         dataType: 'json',
         success: function (data) { 
             
