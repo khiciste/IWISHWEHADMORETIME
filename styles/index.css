@@ -178,6 +178,7 @@ nav, .nav-wrapper {
 }
 .nav-wrapper li a {
   font-size: 1.5rem;
+  font-weight: 200;
   letter-spacing: 3px;  
 }
 .nav-wrapper .hide-on-med-and-down li a {
@@ -212,7 +213,7 @@ ul.hide-on-med-and-down, .sidenav-trigger i {
     margin-top: 10px;
 }
 .sidenav li > a {
-  font-weight: 400;
+  font-weight: 200;
 }
 
 
