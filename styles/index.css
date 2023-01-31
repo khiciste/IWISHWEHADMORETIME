@@ -69,7 +69,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-  overflow-x: hidden !important;
+    overflow-x: hidden !important;
 }
 
 main {
@@ -318,7 +318,8 @@ h3 {
    .jumbotron {
         width: 100%;
     }
-    .card, .main-para {
+    .card, .main-para, #tags-row {
+        position: relative;
         width: 87.5%;
         padding: 1vw 10vw 1vw 5vw;
     }
@@ -354,7 +355,8 @@ h3 {
     .jumbotron {
         width: 100%;
     }
-    .card, .main-para {
+    .card, .main-para, #tags-row {
+        position: relative;
         width: 100%;
         padding: 1vw 10vw 1vw 5vw;
     }
@@ -372,7 +374,7 @@ h3 {
 /* MEDIUM SCREENS */
 @media (max-width: 767px) {
     nav {
-        pmargin: 0px 20px 20px 20px;
+        margin: 0px 20px 20px 20px;
         padding-right: 20px;
         height: 110px;
     }
@@ -400,7 +402,7 @@ h3 {
 /* SMALL SCREENS */
 @media (max-width: 479px) {
     nav {
-        pmargin: 0px 20px 20px 20px;
+        margin: 0px 20px 20px 20px;
         padding-right: 20px;
         height: 110px;
     }

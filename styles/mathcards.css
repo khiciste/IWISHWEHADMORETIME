@@ -45,6 +45,13 @@ h6 {
 /*    color: red;*/
 /*}*/
 
+#tags-row {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+}
+
 #tag-col {
   padding: 0;
 }
