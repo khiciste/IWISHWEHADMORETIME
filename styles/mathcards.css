@@ -48,13 +48,15 @@ h6 {
 #tags-row {
   position: relative;
   height: 100%;
-  width: 100%;
+  width: 87.50%;
   padding: 0;
+  margin-left: 0;
   overflow-x: hidden;
+  margin-bottom: 0;
 }
 
 #tag-col {
-  padding: 0;
+  padding: 1vw 10vw 1vw 5vw;
 }
 .tag {
     background-color: #3949ab; /* indigo darken-1 */
@@ -70,29 +72,36 @@ h6 {
     width: auto;
 }
 .tag:hover {
-    background-color: #3d5afe;
+  background-color: #3d5afe;
 }
 .tag.course {
-    color:white;
-    background-color: #7b1fa2; /* purple accent-3 */
+  color:white;
+  background-color: #7b1fa2; /* purple accent-3 */
 }
 .tag.course:hover {
-    background-color: #d500f9;
+  background-color: #d500f9;
 }
 
 .all {
-    font-weight: bold;
+  font-weight: bold;
 }
 .cards {
-    width: 100%;
+  width: 99%;
 }
+
+#cards {
+  padding: 0;
+}
+
 #cards .card {
-    min-height: 600px;
     /*border: 1px solid #757575;*/
     display: inline-block;
-    min-height: 500px;
-    margin: 10px;
-    padding: 14px;
+    min-height: 600px; 
+    max-height: 800px;
+    height: 100%;
+    width: 99%;
+    margin: 10px 0;
+    padding: 0;
     overflow: hidden;
     position: relative;
     /*box-shadow: 5px 5px 3px #888888;*/
@@ -108,9 +117,12 @@ h6 {
     margin-bottom: 15px;
 }
 .image {
-    position: absolute;
-    margin-top: 30px;
-    right: 20px;
+  display: block;
+  /* position: absolute; */
+  margin-top: 10px;
+  margin-bottom: 20px;
+  /* right: 20px; */
+  /* float: right; */
 }
 
 
@@ -118,7 +130,7 @@ h6 {
 /* X-LARGE SCREENS AND UP */
 @media (min-width: 992px) {
   .card, .collapsible {
-    width: 800px;
+    /* width: 800px; */
   }
   img {
     width: 375px;
@@ -128,7 +140,7 @@ h6 {
 /* LARGE SCREENS AND DOWN */
 @media (max-width: 991px) {
   .card, .collapsible {
-    width: 500px;
+    /* width: 500px; */
   }
   img {
     width: 250px;
@@ -138,7 +150,7 @@ h6 {
 /* MEDIUM SCREENS AND DOWN */
 @media (max-width: 767px) {
   .card, .collapsible {
-    width: 600px;
+    /* width: 600px; */
   }
   img {
     width: 300px;
@@ -151,7 +163,7 @@ h6 {
 /* SMALL SCREENS */
 @media (max-width: 479px) {
   .card, .collapsible {
-    width: 350px;
+    /* width: 350px; */
     max-height: 700px;
   }
   img {
@@ -164,11 +176,11 @@ h6 {
     width: 300px;
 }
 
-.createdby {
+/* .createdby {
     position: absolute;
     left: 5px;
     bottom: 5px;
-}
+} */
 
 .subtitle {
     font-size: 18px;

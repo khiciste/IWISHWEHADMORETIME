@@ -334,7 +334,7 @@ h3 {
         height: auto;
     }
 }
-/* LARGE SCREENS */
+/* MED & DOWN SCREENS */
 @media (max-width: 991px) {
     nav {
         margin: 0px 20px 40px 20px;
@@ -357,7 +357,7 @@ h3 {
     }
     .card, .main-para, #tags-row {
         position: relative;
-        width: 100%;
+        width: 99%;
         padding: 1vw 10vw 1vw 5vw;
     }
     .post img {

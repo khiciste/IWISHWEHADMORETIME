@@ -9,13 +9,15 @@ $img$ - image location for card
 $created$ - created-by attribution for card
 */
 cardhtml = `<div class="card">
-                <span class="card-title" style="font-weight: bold;">$title$</span>
-                <span class="subtitle">$subtitle$</span>
-                <span class="desc" style="padding-bottom: 15px; font-weight: light;">$desc$</span>
+                <p class="card-title" style="font-weight: bold;">$title$</p>
+                <p class="subtitle">$subtitle$</p>
+                <p class="desc" style="padding-bottom: 15px; font-weight: light;">$desc$</p>
+                <p>
                 <div class="image">
                     <img src="$img$" />
                 </div>
-                <span class="createdby">$created$</span>
+                </p>
+                <p class="createdby">$created$</p>
             </div>`
 
 // element selector that cards will be appended to (ideally a div)
