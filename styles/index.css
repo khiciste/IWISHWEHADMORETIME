@@ -103,6 +103,20 @@ main {
     height: auto;
 }
 
+.portfolio-img {
+    position: relative;
+    display: block;
+    margin: auto;
+}
+
+/* @media only screen and (min-width: 993px) {
+    .portfolio-img {
+        position: relative;
+        margin: 30px 60px;
+    }
+} */
+
+
 .rotate45 {
     transform: rotate(-45deg);
 }
@@ -282,16 +296,18 @@ h3 {
   margin-top: 0;
 }
 
-/* not in use */
-/* .centered-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
-
-#ltud-img {
-  margin: 20px 60px;
+.centered-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.centered-wrapper img {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    /* width: 99%; */
+}
+
 
 .btn { margin-right: 5px; margin-bottom: 10px;}
 .btn:hover { color: white; }
@@ -302,7 +318,7 @@ h3 {
 
 /*http://mediag.com/news/popular-screen-resolutions-designing-for-all/*/
 /* X-LARGE SCREENS */
-@media (min-width: 992px) {
+@media (min-width: 993px) {
     nav {
         margin: 0px 20px 40px 20px;
         padding-right: 20px;
@@ -321,7 +337,10 @@ h3 {
     .card, .main-para, #tags-row {
         position: relative;
         width: 87.5%;
-        padding: 1vw 10vw 1vw 5vw;
+        padding: 1vh 2vw;
+    }
+    .portfolio-card {
+        padding: 2vh 2vw;
     }
     .post img {
         width: 50vw;
@@ -335,7 +354,7 @@ h3 {
     }
 }
 /* MED & DOWN SCREENS */
-@media (max-width: 991px) {
+@media (max-width: 992px) {
     nav {
         margin: 0px 20px 40px 20px;
         padding-right: 20px;
@@ -358,7 +377,10 @@ h3 {
     .card, .main-para, #tags-row {
         position: relative;
         width: 99%;
-        padding: 1vw 10vw 1vw 5vw;
+        padding: 1vh 5vw;
+    }
+    .portfolio-card {
+        padding: 2vh 2vw;
     }
     .post img {
         width: 75vw;
@@ -480,6 +502,7 @@ a, a:hover {
     font-weight: bold;
 	color: rgb(0, 89, 45);
 }
+
 
 /* BUTTONS ============================================== */
 .more-wrapper {
