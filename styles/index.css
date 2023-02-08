@@ -328,7 +328,7 @@ h3 {
     }
     #brand-img {
         /*border: 2px dashed orange;*/
-        height: 12vh;
+        height: 20vh;
         width: auto;
     }
    .jumbotron {
@@ -365,7 +365,7 @@ h3 {
     }
     #brand-img {
         /*border: 2px dashed orange;*/
-        height: 12vw;
+        height: 20vh;
         width: auto;
     }
     .hide-on-med-and-down {
@@ -406,7 +406,7 @@ h3 {
     }
     #brand-img {
         /*border: 2px dashed orange;*/
-        height: 12vw;
+        height: 20vh;
         max-height: 80px;
         width: auto;
     }
@@ -433,7 +433,7 @@ h3 {
     }
     #brand-img {
         /*border: 2px dashed orange;*/
-        height: 15vw;
+        height: 15vh;
         width: auto;
     }
     .modal-img {
