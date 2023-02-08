@@ -6,10 +6,17 @@
 #numbers-checkbox {
     margin-left: 2px;
 }
+
 .quotes {
     font-size: 1.4rem !important;
-    padding-bottom: 30px;
+    padding: 20px 60px 30px 60px;
 }
+
+#quotes-row {
+    padding: 0;
+    margin: 0;
+}
+
 .quote-numbers {
     display: block;
     color: gray;
