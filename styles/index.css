@@ -96,6 +96,24 @@ main {
     text-align: center;
 }
 
+.wrap-text {
+    text-align: justify;
+}
+
+.wrap-left {
+    max-width: 350px;
+    height: auto;
+    float: left;
+    margin: 20px 20px 20px 0;
+}
+
+.wrap-right {
+    max-width: 320px;
+    height: auto;
+    float: right;
+    margin: 20px 0 20px 20px;
+}
+
 .display-none { display: none !important; }
 
 .responsive {
@@ -107,14 +125,30 @@ main {
     position: relative;
     display: block;
     margin: auto;
+    max-height: 400px;
 }
 
-/* @media only screen and (min-width: 993px) {
+#am-logo {
+    max-width: 80px;
+}
+
+#ltud-img {
+    max-height: 350px;
+}
+
+#clouds-img {
+    max-width: 200px;
+    padding: auto;
+    margin: 40px auto;
+}
+
+@media only screen and (max-width: 992px) {
     .portfolio-img {
         position: relative;
-        margin: 30px 60px;
+        max-height: 300px;
+        max-width: 200px;
     }
-} */
+}
 
 
 .rotate45 {
